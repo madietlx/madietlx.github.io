@@ -1,0 +1,13 @@
+title: madietlx.github.io
+author: madietlx
+description: >-
+  todo.
+url: "https://madietlx.github.io"
+twitter_username: madietlx
+github_username:  madietlx
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+show_excerpts: true
