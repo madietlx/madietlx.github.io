@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making use of Ubuntu's `unattended-upgrades` package to keep servers up-to-date without breaking them (hopefully)"
-date:   2023-01-15 18:30:00 +0100
+date:   2023-01-16 13:30:00 +0100
 excerpt_separator: <!--more-->
 ---
 
