@@ -67,6 +67,6 @@ Unattended-Upgrade::Remove-Unused-Dependencies "true";
 
 The only thing that remains in my `/etc/crontab` is a `reboot` command, executed as `root` on the weekend---which might not be a feasible option for you but is perfectly fine for me.
 
-Please also note ⚠️ that my userland, by which I mean the software that I install on my Ubuntu servers, is typically very limited. For many years I never had any problems with automatically upgrading installed packages and kernels, and the risk of a system running old and vulnerable software seems way higher than the risk of breaking something due to unattended upgrades.
+Please also note ⚠️ that I typically install a limited set of packages on my Ubuntu servers. Thus, I never had any problems with automatically upgrading installed packages and kernels for many years. The risk of a system running old and vulnerable software seems way higher than the risk of breaking something due to unattended upgrades.
 
 P.S. In the next blog posts, I will write about a) upgrading Docker 🐳 and b) the conffile prompt.
