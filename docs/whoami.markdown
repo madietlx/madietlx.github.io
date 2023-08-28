@@ -14,4 +14,4 @@ Since 2018 I have been mainly responsible for building a container-based platfor
 
 I often find the things that solve my problems or get me back on track in someone else’s blog, so I decided to host my own blog and try it. Enjoy! I hope you find something useful.
 
-P.S. You can find my "official" website with contact information and links to other social media profiles at 🔗 [www.marcell-dietl.de](https://www.marcell-dietl.de). But know that it is mostly in german, and the site is mainly an archive of the things I learned and did during my time at university.
+P.S. You can find my "official" website with contact information and links to other social media profiles at 🔗 [www.marcell-dietl.de](https://www.marcell-dietl.de). But know that it is mostly in German, and the site is mainly an archive of the things I learned and did during my time at university.
