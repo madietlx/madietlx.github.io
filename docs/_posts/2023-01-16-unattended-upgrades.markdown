@@ -69,4 +69,19 @@ The only thing that remains in my `/etc/crontab` is a `reboot` command, executed
 
 Please also note ⚠️ that I typically install a limited set of packages on my Ubuntu servers. Thus, I never had any problems with automatically upgrading installed packages and kernels for many years. The risk of a system running old and vulnerable software seems way higher than the risk of breaking something due to unattended upgrades.
 
-P.S. In the next blog posts, I will write about a) upgrading Docker 🐳 and b) the conffile prompt.
+P.S. ~~In the next blog posts, I will write about a) upgrading Docker 🐳 and b) the conffile prompt.~~
+
+P.P.S. Upgrading Docker 🐳 with Ubuntu's `unattended-upgrades` package has turned out to *not* be a good idea (it restarted the Docker daemon, which is not what you want to happen on a production server during the day). Instead, I'm still using a regularly scheduled cron job for that (see above).
+
+For the conffile prompt, I've found a solution that works for me. I've added
+
+```conf
+Dpkg::Options {
+   "--force-confdef";
+   "--force-confold";
+};
+```
+
+to `/etc/apt/apt.conf.d/50unattended-upgrades` to automatically resolve conffile prompts.
+
+I've found this solution in [this blog post](https://raphaelhertzog.com/2010/09/21/debian-conffile-configuration-file-managed-by-dpkg/) by Raphaël Hertzog from 2010. It still works in 2023. 🎉
