@@ -9,5 +9,6 @@ github_username:  madietlx
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 show_excerpts: true
