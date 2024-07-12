@@ -6,7 +6,7 @@ permalink: /whoami/
 
 Hey! My name is Marcell 👨‍💻
 
-I was born and raised in Germany but recently moved to Maastricht, The Netherlands 🌷
+I was born and raised in Germany. In 2022, I moved to Maastricht, The Netherlands 🌷
 
 I work as a *Software Architect* for a german company named [frontmark](https://www.frontmark.de), which is at the intersection of Finance and Technology, so it is fair to say that we are a FinTech company, even though the term might mean different things for different people.
 
